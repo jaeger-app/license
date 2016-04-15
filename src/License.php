@@ -1,17 +1,16 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
- * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/License.php
+ * @filesource 	./License.php
  */
-namespace mithra62;
+namespace JaegerApp;
 
 /**
- * mithra62 - Licensing Object
+ * Jaeger - Licensing Object
  *
  * Contains the methods for validating the host system
  *
@@ -34,7 +33,7 @@ class License
      * @param \mithra62\Settings $settings            
      * @return \mithra62\License
      */
-    public function setSetting(\mithra62\Settings $settings)
+    public function setSetting(\JaegerApp\Settings $settings)
     {
         $this->setting = $settings;
         return $this;
