@@ -1,0 +1,20 @@
+{
+	"name": "jaeger-app/license",
+	"description": "A simple license management system for commercial libraries.",
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "4.*"
+	},
+	"authors": [{
+		"name": "Eric Lamb",
+		"email": "eric@mithra62.com"
+	}],
+	"autoload": {
+		"psr-4": {
+			"JaegerApp\\": "src/"
+		}
+	},
+	"license": "MIT"
+}
