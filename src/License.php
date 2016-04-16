@@ -23,15 +23,15 @@ class License
     /**
      * The Setting object
      * 
-     * @var \mithra62\Settings
+     * @var \JaegerApp\Settings
      */
     protected $setting = null;
 
     /**
      * Sets the Setting object
      * 
-     * @param \mithra62\Settings $settings            
-     * @return \mithra62\License
+     * @param \JaegerApp\Settings $settings            
+     * @return \JaegerApp\License
      */
     public function setSetting(\JaegerApp\Settings $settings)
     {
